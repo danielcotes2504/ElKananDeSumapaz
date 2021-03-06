@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="css/video-js.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sarabun:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+
+    <script src="js/video.js"></script>
+    <script src="js/prueba.js"></script>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
+
+    <title>Video</title>
+  </head>
+  <body>
+    <main>
+      <div class="contenedor">
+        <div class="navigation">
+          <ul>
+            <li>
+              <a href="#">
+                <span class="icon"
+                  ><i class="fa fa-tree" aria-hidden="true"></i
+                ></span>
+                <span class="title" onclick="Menu1()"
+                  >Primera parte: Comienzo de la aventura</span
+                >
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <span class="icon"
+                  ><i class="fa fa-road" aria-hidden="true"></i
+                ></span>
+                <span class="title" onclick="Menu2()"
+                  >Segunda parte: El camino del necio</span
+                >
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <span class="icon"
+                  ><i class="fa fa-sun-o" aria-hidden="true"></i
+                ></span>
+                <span class="title" onclick="Menu3()"
+                  >Tercera parte: Retorno</span
+                >
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="toggle" onclick="toggleMenu()"></div>
+
+        <video
+          id="Sumapaz"
+          class="fm-video video-js vjs-16-9 vjs-big-play-centered"
+          data-setup="{}"
+          controls
+          id="fm-video"
+        >
+          <source id="S1" src="video/E1.webm" type="video/webm" />
+        </video>
+
+        <!--REDES SOCIALESSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS-->
+        <div class="share-btn-container">
+          <a href="#" class="facebook-btn">
+            <i class="fab fa-facebook" id="SocialNet"></i>
+          </a>
+
+          <a href="#" class="twitter-btn">
+            <i class="fab fa-twitter" id="SocialNet"></i>
+          </a>
+
+          <a href="#" class="linkedin-btn">
+            <i class="fab fa-linkedin" id="SocialNet"></i>
+          </a>
+
+          <a href="#" class="whatsapp-btn">
+            <i class="fab fa-whatsapp" id="SocialNet"></i>
+          </a>
+        </div>
+        <!--FIN REDES SOCIALES.....................................------------------>
+        <!--INPUT TEXT -----------------------------INPUT TEXT--------->
+        <input type="text" placeholder="" id="nombretxt" disabled />
+        <div class="o-space">
+          <h1 class="o-text-prueba">pruebaaa</h1>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/social.js"></script>
+    <script>
+      var reproductor = videojs("fm-video", {
+        fluid: true
+      });
+    </script>
+  </body>
+</html>
