@@ -9,6 +9,7 @@ This is a free and educational non-profit project that you can use.
 
 If you want to take a look at the project, you can see it working at: https://codesandbox.io/s/shy-pond-5i1e0
 # Testing video
+https://user-images.githubusercontent.com/36736949/110252243-70b6b500-7f52-11eb-8499-ca58db915429.mp4
 
 # PD:  
 I will attach the formal documentation if you want to know more about.
