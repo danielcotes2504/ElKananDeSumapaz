@@ -13,7 +13,6 @@ CSS3
 #Libraries 
 ```
 Bootstrap 4.5.3
-Chart.js  2.7.2
 jQuery 1.11.3
 ```
 All the graphic content was created by me using Free softwares like Gimp and Inkscape. The videos were made with Adobe After Effects 2020 and Adobe Premiere 2020
