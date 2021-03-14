@@ -12,8 +12,10 @@ CSS3
 
 #Libraries 
 ```
-Bootstrap 4.5.3
-jQuery 1.11.3
+Bootstrap 4.7.0
+jQuery 3.5.1
+font-awesome 5.12.1
+Video.js 7.2.3
 ```
 All the graphic content was created by me using Free softwares like Gimp and Inkscape. The videos were made with Adobe After Effects 2020 and Adobe Premiere 2020
 
